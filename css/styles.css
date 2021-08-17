@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  background-color: #d9dad8;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+  margin: 0.8%;
+  padding: 0.6%;
+}
+li a {
+  padding: 6px;
+  display: block;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+li a:hover {
+  color: #5bc0be;
+}
+.nav-right {
+  float: right;
+}
+#mustard-devs {
+  text-transform: uppercase;
+  margin-left: 3%;
+}
