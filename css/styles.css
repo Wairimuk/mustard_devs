@@ -3,8 +3,12 @@ body {
   scroll-padding-top: 6px; /* height of sticky header */
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffffff;
   height: 100%;
+}
+
+/* buttons */
+button :hover {
+  color: #5bc0be;
 }
 
 /* nav-bar */
@@ -40,6 +44,7 @@ li a:hover {
   text-transform: uppercase;
   margin-left: 3%;
 }
+
 /* Section1 */
 .homepage {
   height: 100vh;
@@ -61,6 +66,21 @@ li a:hover {
 .homepage-child p {
   margin-top: 0;
 }
+
+/* section2 */
+#aboutus {
+  height: 100vh;
+  display: flex;
+  color: #000000;
+}
+#aboutus h5 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 footer {
-  background-color: #a89632;
+  position: sticky;
+  text-align: center;
+  background-color: cornflowerblue;
+  padding: 12px;
 }
